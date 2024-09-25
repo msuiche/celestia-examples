@@ -1,0 +1,8 @@
+# Target directories
+target/
+
+# macOS-specific files
+.DS_Store
+
+# Environment variables file
+.env

@@ -1,0 +1,10 @@
+[package]
+name = "rust-client"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+celestia-rpc = "0.1.1"
+celestia-types = "0.1.1"
+clap = { version = "4.5.18", features = ["derive", "env"] }
